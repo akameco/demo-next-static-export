@@ -6,6 +6,45 @@ exports[`snapshot 1`] = `
     <title>
       Home page
     </title>
+    <meta
+      charSet="utf-8"
+    />
+    <meta
+      content="width=device-width, initial-scale=1"
+      name="viewport"
+    />
+    <meta
+      content="next.jsを使った静的サイトです。"
+      name="description"
+    />
+    <meta
+      content="Home Page"
+      property="og:title"
+    />
+    <meta
+      content="https://akameco.github.io/demo-next-static-export"
+      property="og:url"
+    />
+    <meta
+      content="https://akameco.github.io"
+      property="og:site_name"
+    />
+    <meta
+      content="next.jsを使った静的サイトです。"
+      property="og:description"
+    />
+    <meta
+      content="456581931407339"
+      property="fb:app_id"
+    />
+    <meta
+      content="summary"
+      name="twitter:card"
+    />
+    <meta
+      content="@akameco"
+      name="twitter:site"
+    />
   </SideEffect(Head)>
   Hello World
 </main>
