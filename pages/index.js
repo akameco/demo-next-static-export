@@ -9,6 +9,7 @@ export default class Index extends React.Component {
         <Head>
           <title>Home page</title>
         </Head>
+        Hello World
       </main>
     )
   }

@@ -7,5 +7,6 @@ exports[`snapshot 1`] = `
       Home page
     </title>
   </SideEffect(Head)>
+  Hello World
 </main>
 `;
