@@ -63,10 +63,6 @@ exports[`snapshot 1`] = `
       type="image/png"
     />
     <link
-      href="/static/manifest.json"
-      rel="manifest"
-    />
-    <link
       color="#5bbad5"
       href="/static/safari-pinned-tab.svg"
       rel="mask-icon"
