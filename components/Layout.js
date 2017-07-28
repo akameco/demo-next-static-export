@@ -47,7 +47,6 @@ export default class Layout extends React.Component {
             sizes="16x16"
             href="/static/favicon-16x16.png"
           />
-          <link rel="manifest" href="/static/manifest.json" />
           <link
             rel="mask-icon"
             href="/static/safari-pinned-tab.svg"
