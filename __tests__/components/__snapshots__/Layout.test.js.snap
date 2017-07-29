@@ -14,7 +14,7 @@ exports[`snapshot 1`] = `
       name="viewport"
     />
     <meta
-      content="next.jsを使った静的サイトです。"
+      content="next.jsを使った静的サイト。OGP対応確認中"
       name="description"
     />
     <meta
@@ -46,25 +46,25 @@ exports[`snapshot 1`] = `
       name="twitter:site"
     />
     <link
-      href="/demo-next-static-export/static/apple-touch-icon.png"
+      href="/static/apple-touch-icon.png"
       rel="apple-touch-icon"
       sizes="180x180"
     />
     <link
-      href="/demo-next-static-export/static/favicon-32x32.png"
+      href="/static/favicon-32x32.png"
       rel="icon"
       sizes="32x32"
       type="image/png"
     />
     <link
-      href="/demo-next-static-export/static/favicon-16x16.png"
+      href="/static/favicon-16x16.png"
       rel="icon"
       sizes="16x16"
       type="image/png"
     />
     <link
       color="#5bbad5"
-      href="/demo-next-static-export/static/safari-pinned-tab.svg"
+      href="/static/safari-pinned-tab.svg"
       rel="mask-icon"
     />
     <meta

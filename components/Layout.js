@@ -6,6 +6,8 @@ type Props = {
   children?: React.Element<*>,
 }
 
+const staticPath = process.env.STATIC_PATH || '/static'
+
 export default class Layout extends React.Component {
   props: Props
   render() {
@@ -15,7 +17,7 @@ export default class Layout extends React.Component {
           <title>Home page</title>
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta name="description" content="next.jsを使った静的サイトです。" />
+          <meta name="description" content="next.jsを使った静的サイト。OGP対応確認中" />
 
           <meta property="og:title" content="Home Page" />
           <meta
@@ -33,23 +35,23 @@ export default class Layout extends React.Component {
           <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="/demo-next-static-export/static/apple-touch-icon.png"
+            href={`${staticPath}/apple-touch-icon.png`}
           />
           <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="/demo-next-static-export/static/favicon-32x32.png"
+            href={`${staticPath}/favicon-32x32.png`}
           />
           <link
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="/demo-next-static-export/static/favicon-16x16.png"
+            href={`${staticPath}/favicon-16x16.png`}
           />
           <link
             rel="mask-icon"
-            href="/demo-next-static-export/static/safari-pinned-tab.svg"
+            href={`${staticPath}/safari-pinned-tab.svg`}
             color="#5bbad5"
           />
           <meta name="theme-color" content="#ffffff" />

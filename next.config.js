@@ -6,6 +6,6 @@ module.exports = {
     return { '/': { page: '/' } }
   },
   assetPrefix: dev
-    ? 'localhost:3000'
+    ? 'http://localhost:3000'
     : 'https://akameco.github.io/demo-next-static-export/',
 }
