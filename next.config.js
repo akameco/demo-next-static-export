@@ -5,7 +5,5 @@ module.exports = {
   exportPathMap() {
     return { '/': { page: '/' } }
   },
-  assetPrefix: dev
-    ? 'http://localhost:3000'
-    : 'https://akameco.github.io/demo-next-static-export/',
+  assetPrefix: dev ? 'http://localhost:3000' : '/demo-next-static-export/',
 }
